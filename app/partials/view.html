@@ -1,0 +1,24 @@
+<div class="row marketing">
+  <div class="col-md-12">
+    <h4><strong><span ng-bind="post.title | uppercase"></span></strong></h4>
+    <p ng-bind="post.body"></p>
+  </div>
+</div>
+<div class="panel panel-default" ng-show="post.id">
+  <div class="panel-heading">Comments</div>
+  <div class="panel-body" ng-repeat="comment in comments" ng-show="comments.length">
+      <div class="row">
+          <div class="col-md-12">
+             <strong><span ng-bind="comment.name"></span></strong>
+          </div>
+          <div class="col-md-12" ng-bind="comment.body">
+          </div>
+          <div class="col-md-6 text-muted">
+              EMAIL: <span ng-bind="comment.email"></span>
+          </div>
+      </div>
+  </div>
+  <div class="panel-body" ng-show="!comments.length">
+      No comments posted!
+  </div>
+</div>

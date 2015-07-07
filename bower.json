@@ -1,0 +1,10 @@
+{
+  "name": "e2e-protractor-setup",
+  "version": "0.0.1",
+  "description": "E2e testing setup with protractor, grunt, chai liabrary, service mocking",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-ui-router": "~0.2.15"
+  }
+}

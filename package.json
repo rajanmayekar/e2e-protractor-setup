@@ -1,0 +1,23 @@
+{
+  "name": "e2eAui",
+  "version": "0.0.0",
+  "description": "E2e tests for AUI",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chromedriver": "~2.15.1",
+    "grunt": "~0.4.5",
+    "grunt-protractor-runner": "~2.0.0",
+    "load-grunt-tasks": "~3.2.0",
+    "protractor": "~2.1.0",
+    "chai": "~2.3.0",
+    "chai-as-promised": "~5.1.0",
+    "chai-webdriver": "~1.1.1",
+    "optimist": "~0.6.1",
+    "protractor-html-screenshot-reporter": "0.0.19",
+    "protractor-http-mock": "~0.1.13"
+  },
+  "dependencies": {
+    "grunt-devserver": "~0.6.0"
+  }
+}
