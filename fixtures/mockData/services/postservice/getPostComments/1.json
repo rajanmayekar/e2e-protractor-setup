@@ -1,0 +1,16 @@
+[
+    {
+    "postId": 1,
+    "id": 1,
+    "name": "TEST COMMENT1 FOR POST 1",
+    "email": "user1@example.com",
+    "body": "TEST COMMENT1 CONTENT"
+    },
+    {
+    "postId": 1,
+    "id": 2,
+    "name": "TEST COMMENT2 FOR POST 1",
+    "email": "user1@example.com",
+    "body": "TEST COMMENT2 CONTENT"
+    }
+]

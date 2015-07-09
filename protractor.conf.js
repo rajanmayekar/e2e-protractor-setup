@@ -22,9 +22,7 @@ exports.config = {
     // tasks.
     allScriptsTimeout: 20000,
 
-    jasmineNodeOpts: {
-        defaultTimeoutInterval: 500000
-    },
+    baseUrl: 'http://localhost:9010',
 
     multiCapabilities: [{
       'browserName': 'chrome'
